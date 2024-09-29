@@ -4,7 +4,7 @@
   "description": "Should always check if the planet will be hit",
   "scripts": {
     "dev": "parcel serve src/index.html",
-    "build": "npm run test && parcel build src/index.html",
+    "build": "npx parcel build src/index.html",
     "test": "node tests/*.js"
   },
   "browserslist": [
